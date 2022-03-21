@@ -1,0 +1,42 @@
+*, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.form-inline {
+  margin-left: 3%;
+}
+
+.d-flex {
+  margin-right: 3%;
+}
+
+/**
+Placing "Start Tour!" button in center of page.
+ */
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/**
+---------------------------------------------
+ */
+.btn {
+  border-radius: 50%;
+}
+
+.startTourBtn {
+  padding: 1.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */
