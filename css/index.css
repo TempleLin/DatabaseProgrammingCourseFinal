@@ -12,13 +12,8 @@
 }
 
 /**
-Placing "Start Tour!" button in center of page.
+For placing element in center of page.
  */
-.container {
-  height: 100vh;
-  position: relative;
-}
-
 .center {
   margin: 0;
   position: absolute;
