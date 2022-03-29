@@ -26,10 +26,6 @@ For placing element in center of page.
 /**
 ---------------------------------------------
  */
-.btn {
-  border-radius: 50%;
-}
-
 .startTourBtn {
   padding: 1.5rem;
 }

@@ -4,9 +4,9 @@ require_once './includes/header.php';
 ?>
 
 <div class="center">
-    <form name="form" method="post" action="upload.php" enctype="multipart/form-data" >
+    <form name="form" method="post" action="upload.php" enctype="multipart/form-data" class="form-group">
         <input type="file" name="my_file" /><br /><br />
-        <input type="submit" name="submit" value="Upload"/>
+        <input type="submit" name="submit" value="Upload" class="btn btn-primary"/>
     </form>
 </div>
 
