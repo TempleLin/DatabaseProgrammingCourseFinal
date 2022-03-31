@@ -79,7 +79,7 @@ $("#tsparticles")
                     width: 1,
                 },
                 collisions: {
-                    enable: true,
+                    enable: false, //Setting this to false prevents the particles' speed increase.
                 },
                 move: {
                     direction: "none",
