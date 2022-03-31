@@ -35,7 +35,7 @@ $("#tsparticles")
         {
             background: {
                 color: {
-                    value: "#ffffff",
+                    value: "#000000",
                 },
             },
             fpsLimit: 120,
@@ -69,10 +69,10 @@ $("#tsparticles")
             },
             particles: {
                 color: {
-                    value: "#b321ff",
+                    value: "#00e8ff",
                 },
                 links: {
-                    color: "#0048ff",
+                    color: "#ffffff",
                     distance: 150,
                     enable: true,
                     opacity: 0.5,
