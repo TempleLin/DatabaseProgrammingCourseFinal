@@ -1,19 +1,19 @@
 *, body {
   padding: 0px;
   margin: 0px;
+  max-width: 100%;
 }
 
+//Add margin and padding to Bootstrap's .container will cause problems.
 .container {
-  margin: 0px;
-  padding: 0px;
+  //margin: 0px;
+  //padding: 0px;
 }
 .navbar {
   //Make in front of everything.
   z-index: 9999;
   margin: 0px;
   padding: 0px;
-  //Make navbar full width of the page.
-  width: 100vw;
 }
 
 //Give left and right space to the navbar.

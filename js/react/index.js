@@ -65,6 +65,30 @@ function ImagesContainer() {
                     <div className="desc">Add a description of the image here</div>
                 </div>
             </div>
+            <div className="responsive whiteText">
+                <div className="gallery">
+                    <a target="_blank" href="img_forest.jpg">
+                        <img src="https://source.unsplash.com/random/600x600?summer" alt="Forest" width="600" height="400"/>
+                    </a>
+                    <div className="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div className="responsive whiteText">
+                <div className="gallery">
+                    <a target="_blank" href="img_forest.jpg">
+                        <img src="https://source.unsplash.com/random/600x600?summer" alt="Forest" width="600" height="400"/>
+                    </a>
+                    <div className="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div className="responsive whiteText">
+                <div className="gallery">
+                    <a target="_blank" href="img_forest.jpg">
+                        <img src="https://source.unsplash.com/random/600x600?summer" alt="Forest" width="600" height="400"/>
+                    </a>
+                    <div className="desc">Add a description of the image here</div>
+                </div>
+            </div>
         </Fragment>
     );
 }

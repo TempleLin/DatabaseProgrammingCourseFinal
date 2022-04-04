@@ -1,18 +1,13 @@
 *, body {
   padding: 0px;
   margin: 0px;
-}
-
-.container {
-  margin: 0px;
-  padding: 0px;
+  max-width: 100%;
 }
 
 .navbar {
   z-index: 9999;
   margin: 0px;
   padding: 0px;
-  width: 100vw;
 }
 
 .form-inline {
@@ -40,11 +35,6 @@ For placing element in center of page.
  */
 .startTourBtn {
   padding: 1.5rem;
-}
-
-#theTSParticles {
-  width: 100%;
-  height: 100vh;
 }
 
 #tsparticles {
