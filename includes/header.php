@@ -18,5 +18,5 @@
 </head>
 <body>
 <!--Bootstrap container class.-->
-<div class="container">
+<div class="container-fluid">
     <div id="theNavBar"></div>

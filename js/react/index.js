@@ -94,9 +94,7 @@ function ImagesContainer() {
 }
 function Footer() {
     return (
-        <footer className={"whiteText footer"}>
-            <small>@2021 Database Programming Course Group Final Project. All rights reserved.</small>
-        </footer>
+        <small className={"whiteText footer"}>@2021 Database Programming Course Group Final Project. All rights reserved.</small>
     )
 }
 
