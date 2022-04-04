@@ -12,8 +12,8 @@
     <!--    $title needs to be set before requiring this file.-->
     <title>Attendance - <?php echo $title ?></title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/sidebar_menu.css">
     <link rel="stylesheet" href="./css/animations.css">
-
 
 </head>
 <body>
@@ -21,3 +21,5 @@
 <!--(.container-fluid takes 100% width no matter what, while .container depends on screen size.)-->
 <div class="container-fluid">
     <div id="theNavBar"></div>
+    <!-- Side navigation -->
+    <div class="sidenav"></div>

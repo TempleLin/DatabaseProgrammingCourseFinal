@@ -6,7 +6,7 @@
 
 .navbar {
   z-index: 9999;
-  margin: 0px;
+  margin: 0.5rem 0px 0px;
   padding: 0px;
 }
 
@@ -41,14 +41,15 @@ For placing element in center of page.
   z-index: 0;
 }
 
-.footer {
-  position: relative;
-  z-index: 1000;
-  text-align: center;
-}
-
 .whiteText {
   color: white;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
 }
 
 /*# sourceMappingURL=index.css.map */

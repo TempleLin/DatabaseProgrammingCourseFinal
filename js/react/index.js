@@ -3,13 +3,13 @@ const {
     Fragment
 } = React;
 
-class TheNavBar extends Component {
+class TopNavBar extends Component {
     componentDidMount() {
         CompsAnims.slowlySlideInNavbar();
     }
     render() {
         return (
-            <nav className="navbar navbar-dark bg-dark">
+            <nav className="navbar">
                 <form className="form-inline">
                     <button className="btn btn-outline-success text-light round-btn" type="button"
                             onClick="location.href = 'index.php';">Home
@@ -150,7 +150,18 @@ function ImagesContainer() {
 }
 function Footer() {
     return (
-        <small className={"whiteText footer"}>@2021 Database Programming Course Group Final Project. All rights reserved.</small>
+        <small className={"whiteText fixed-bottom copyright"}>@2021 Database Programming Course Group Final Project. All rights reserved.</small>
+    )
+}
+
+function SideNav() {
+    return (
+        <Fragment>
+            <a href={'#'}>About</a>
+            <a href={'#'}>Services</a>
+            <a href={'#'}>Clients</a>
+            <a href={'#'}>Contact</a>
+        </Fragment>
     )
 }
 
@@ -163,5 +174,9 @@ ReactDOM.render(
     , document.querySelector("#root"));
 
 ReactDOM.render(
-    <TheNavBar/>, document.querySelector('#theNavBar')
+    <TopNavBar/>, document.querySelector('#theNavBar')
+);
+
+ReactDOM.render(
+    <SideNav/>, document.querySelector('.sidenav')
 );
