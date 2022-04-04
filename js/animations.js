@@ -8,8 +8,11 @@ class CompsAnims {
     static slowlySlideInNavbar() {
         $('.navbar').hide().slideToggle('slow');
     }
-    static slowlyFadeInTSParticles() {
-        $('#tsparticles').hide().fadeIn(2250);
+    static slowlySlideInSideNav() {
+        $('.sidenav').hide().slideToggle('slow');
+    }
+    static slowlySlideInRoot() {
+        $('#root').hide().slideToggle('slow');
     }
 }
 
