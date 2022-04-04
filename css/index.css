@@ -42,6 +42,11 @@ For placing element in center of page.
   padding: 1.5rem;
 }
 
+#theTSParticles {
+  width: 100%;
+  height: 100vh;
+}
+
 #tsparticles {
   z-index: 0;
 }

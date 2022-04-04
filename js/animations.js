@@ -5,36 +5,20 @@
  */
 
 class CompsAnims {
-    static slowlyShowNavbar() {
+    static slowlySlideInNavbar() {
         $('.navbar').hide().slideToggle('slow');
+    }
+    static slowlyFadeInTSParticles() {
+        $('#tsparticles').hide().fadeIn(2250);
     }
 }
 
-
-
-$('.navbar').hide();
-// $('.startTourBtnContainer').hide();
-$('#tsparticles').hide();
-
+/**
+ * These are not React component; their animations can get set regularly here.
+ */
 $(function() {
-    $('.navbar').slideToggle('slow');
-    $('.startTourBtnContainer').fadeIn(1250);
     $('#tsparticles').fadeIn(2250);
 });
-
-// $('.startTourBtn').on('mouseenter', function () {
-//     // $('.startTourBtn').effect('shake');
-//     $('.startTourBtn').removeClass('shakeBtn');
-//     console.log('On hover tour button!');
-// });
-// $('.startTourBtn').on('mouseleave', function () {
-//     $('.startTourBtn').addClass('shakeBtn');
-//     console.log('On leave tour button!');
-// });
-
-/**
- * -------------------------------------------
- */
 
 /**
  * tsparticles animations

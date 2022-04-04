@@ -3,7 +3,38 @@ const {
     Fragment
 } = React;
 
-function ImageContainer() {
+class TheNavBar extends Component {
+    componentDidMount() {
+        CompsAnims.slowlySlideInNavbar();
+    }
+    render() {
+        return (
+            <nav className="navbar navbar-dark bg-dark">
+                <form className="form-inline">
+                    <button className="btn btn-outline-success text-light round-btn" type="button"
+                            onClick="location.href = 'index.php';">Home
+                    </button>
+                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
+                            onClick="location.href = 'viewAttendees.php';">Musics
+                    </button>
+                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
+                            onClick="location.href = 'viewAttendees.php';">Sounds
+                    </button>
+                </form>
+                <form className="d-flex">
+                    <button className="btn btn-outline-success text-light round-btn" type="button"
+                            onClick="location.href = 'upload.php';">Upload
+                    </button>
+                    <button className="btn btn-outline-success text-light form-inline round-btn"
+                            type="button">Login/Register
+                    </button>
+                </form>
+            </nav>
+        );
+    }
+}
+
+function ImagesContainer() {
     return(
         <Fragment>
             {/*<div className={"image_gallery_wrapper"}>*/}
@@ -45,40 +76,10 @@ function Footer() {
     )
 }
 
-class TheNavBar extends Component {
-    componentDidMount() {
-        CompsAnims.slowlyShowNavbar();
-    }
-    render() {
-        return (
-            <nav className="navbar navbar-dark bg-dark">
-                <form className="form-inline">
-                    <button className="btn btn-outline-success text-light round-btn" type="button"
-                            onClick="location.href = 'index.php';">Home
-                    </button>
-                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
-                            onClick="location.href = 'viewAttendees.php';">Musics
-                    </button>
-                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
-                            onClick="location.href = 'viewAttendees.php';">Sounds
-                    </button>
-                </form>
-                <form className="d-flex">
-                    <button className="btn btn-outline-success text-light round-btn" type="button"
-                            onClick="location.href = 'upload.php';">Upload
-                    </button>
-                    <button className="btn btn-outline-success text-light form-inline round-btn"
-                            type="button">Login/Register
-                    </button>
-                </form>
-            </nav>
-        );
-    }
-}
 
 ReactDOM.render(
     <div>
-        <ImageContainer/>
+        <ImagesContainer/>
         <Footer/>
     </div>
     , document.querySelector("#root"));
