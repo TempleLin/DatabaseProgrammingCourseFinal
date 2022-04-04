@@ -19,14 +19,15 @@
 <body>
 <!--Bootstrap container class.-->
 <div class="container">
-    <nav class="navbar navbar-dark bg-dark">
-        <form class="form-inline">
-            <button class="btn btn-outline-success text-light round-btn" type="button" onclick="location.href = 'index.php';">Home</button>
-            <button class="btn btn-sm btn-outline-secondary text-light round-btn" type="button" onclick="location.href = 'viewAttendees.php';">Musics</button>
-            <button class="btn btn-sm btn-outline-secondary text-light round-btn" type="button" onclick="location.href = 'viewAttendees.php';">Sounds</button>
-        </form>
-        <form class="d-flex">
-            <button class="btn btn-outline-success text-light round-btn" type="button" onclick="location.href = 'upload.php';">Upload</button>
-            <button class="btn btn-outline-success text-light form-inline round-btn" type="button">Login/Register</button>
-        </form>
-    </nav>
+    <div id="theNavBar"></div>
+<!--    <nav class="navbar navbar-dark bg-dark">-->
+<!--        <form class="form-inline">-->
+<!--            <button class="btn btn-outline-success text-light round-btn" type="button" onclick="location.href = 'index.php';">Home</button>-->
+<!--            <button class="btn btn-sm btn-outline-secondary text-light round-btn" type="button" onclick="location.href = 'viewAttendees.php';">Musics</button>-->
+<!--            <button class="btn btn-sm btn-outline-secondary text-light round-btn" type="button" onclick="location.href = 'viewAttendees.php';">Sounds</button>-->
+<!--        </form>-->
+<!--        <form class="d-flex">-->
+<!--            <button class="btn btn-outline-success text-light round-btn" type="button" onclick="location.href = 'upload.php';">Upload</button>-->
+<!--            <button class="btn btn-outline-success text-light form-inline round-btn" type="button">Login/Register</button>-->
+<!--        </form>-->
+<!--    </nav>-->

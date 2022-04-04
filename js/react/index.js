@@ -45,9 +45,44 @@ function Footer() {
     )
 }
 
+class TheNavBar extends Component {
+    componentDidMount() {
+        CompsAnims.slowlyShowNavbar();
+    }
+    render() {
+        return (
+            <nav className="navbar navbar-dark bg-dark">
+                <form className="form-inline">
+                    <button className="btn btn-outline-success text-light round-btn" type="button"
+                            onClick="location.href = 'index.php';">Home
+                    </button>
+                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
+                            onClick="location.href = 'viewAttendees.php';">Musics
+                    </button>
+                    <button className="btn btn-sm btn-outline-secondary text-light round-btn" type="button"
+                            onClick="location.href = 'viewAttendees.php';">Sounds
+                    </button>
+                </form>
+                <form className="d-flex">
+                    <button className="btn btn-outline-success text-light round-btn" type="button"
+                            onClick="location.href = 'upload.php';">Upload
+                    </button>
+                    <button className="btn btn-outline-success text-light form-inline round-btn"
+                            type="button">Login/Register
+                    </button>
+                </form>
+            </nav>
+        );
+    }
+}
+
 ReactDOM.render(
     <div>
         <ImageContainer/>
         <Footer/>
     </div>
     , document.querySelector("#root"));
+
+ReactDOM.render(
+    <TheNavBar/>, document.querySelector('#theNavBar')
+);

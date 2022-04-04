@@ -1,9 +1,19 @@
 /**
- * Start sliding in of the page components.
+ *  Since React render is async, jQuery code get executed before React renders complete.
+ * Therefore, animations should be functions that will get called by a component when it finishes rendering.
+ * componentDidMount() method in each component are callback methods that execute when finishes rendering.
  */
 
+class CompsAnims {
+    static slowlyShowNavbar() {
+        $('.navbar').hide().slideToggle('slow');
+    }
+}
+
+
+
 $('.navbar').hide();
-$('.startTourBtnContainer').hide();
+// $('.startTourBtnContainer').hide();
 $('#tsparticles').hide();
 
 $(function() {
@@ -12,15 +22,15 @@ $(function() {
     $('#tsparticles').fadeIn(2250);
 });
 
-$('.startTourBtn').on('mouseenter', function () {
-    // $('.startTourBtn').effect('shake');
-    $('.startTourBtn').removeClass('shakeBtn');
-    console.log('On hover tour button!');
-});
-$('.startTourBtn').on('mouseleave', function () {
-    $('.startTourBtn').addClass('shakeBtn');
-    console.log('On leave tour button!');
-});
+// $('.startTourBtn').on('mouseenter', function () {
+//     // $('.startTourBtn').effect('shake');
+//     $('.startTourBtn').removeClass('shakeBtn');
+//     console.log('On hover tour button!');
+// });
+// $('.startTourBtn').on('mouseleave', function () {
+//     $('.startTourBtn').addClass('shakeBtn');
+//     console.log('On leave tour button!');
+// });
 
 /**
  * -------------------------------------------

@@ -1,4 +1,7 @@
 div.gallery {
+  /**
+  ------Make gallery in front of particles.
+   */
   position: relative;
   z-index: 1000;
   padding: 1rem;
