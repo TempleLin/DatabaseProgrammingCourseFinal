@@ -18,5 +18,6 @@
 </head>
 <body>
 <!--Bootstrap container class.-->
+<!--(.container-fluid takes 100% width no matter what, while .container depends on screen size.)-->
 <div class="container-fluid">
     <div id="theNavBar"></div>
