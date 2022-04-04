@@ -19,8 +19,7 @@
 <body>
 <!--Bootstrap container class.-->
 <div class="container">
-<!--    "fixed-top" class can make navbar full width.-->
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-dark bg-dark">
         <form class="form-inline">
             <button class="btn btn-outline-success text-light round-btn" type="button" onclick="location.href = 'index.php';">Home</button>
             <button class="btn btn-sm btn-outline-secondary text-light round-btn" type="button" onclick="location.href = 'viewAttendees.php';">Musics</button>

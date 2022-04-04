@@ -14,6 +14,13 @@
 
 <!-- then include jquery wrapper -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+
+<!--React-->
+<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="./js/react/index.js" type="text/babel"></script>
+
 <script src="./js/animations.js"></script>
 </body>
 </html>

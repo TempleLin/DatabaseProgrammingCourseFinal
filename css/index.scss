@@ -3,6 +3,17 @@
   margin: 0px;
 }
 
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  z-index: 9999;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+}
+
 //Give left and right space to the navbar.
 .form-inline {
   margin-left: 3%;
@@ -29,4 +40,19 @@ For placing element in center of page.
 //Enlarge "Start Tour!" button.
 .startTourBtn {
   padding: 1.5rem;
+}
+
+#tsparticles {
+  z-index: 0;
+}
+
+//Make sure footer is in front of tsparticles.
+.footer {
+  position: relative;
+  z-index: 1000;
+  text-align: center;
+}
+
+.whiteText {
+  color: white;
 }
